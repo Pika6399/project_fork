@@ -20,12 +20,7 @@ pipeline{
 		   
 		   }
 		   
-		   stage ("deploy"){
-		         steps{
-				       sh "cp LoginWebApp.war /mnt/servers/apache-tomcat-9.0.94/webapps/"
-				 
-				 
-				 }
+		   
 		   
 		   
 		   
@@ -38,4 +33,3 @@ pipeline{
 
 
 
-}
